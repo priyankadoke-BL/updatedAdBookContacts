@@ -71,5 +71,18 @@ public class AddressBook {
         }
     }
 
+    public void showData(){
+        for(int i =0 ;i<arrayList.size();i++){
+            System.out.println(arrayList.get(i).getFirstName());
+            System.out.println(arrayList.get(i).getLastName());
+            System.out.println(arrayList.get(i).getAddress());
+            System.out.println(arrayList.get(i).getCity());
+            System.out.println(arrayList.get(i).getZip());
+            System.out.println(arrayList.get(i).getState());
+            System.out.println(arrayList.get(i).getPhoneNumber());
+            System.out.println(arrayList.get(i).getEmail());
 
+        }
+
+    }
 }
